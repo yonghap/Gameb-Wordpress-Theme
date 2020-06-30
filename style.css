@@ -1,0 +1,128 @@
+/*
+Theme Name: Gameb
+Theme URI: https://gameb.co.kr
+Author: Park YongHa
+Version: 1.0
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+* {margin:0;padding:0;vertical-align:top}
+img,fieldset,iframe {border:0}
+img {max-width:100%;height:auto;vertical-align:top}
+ul,ol,li {list-style:none}
+a {color:#333;text-decoration:none}
+h1,h2,h3,h4,h5,h6 {font-weight:400}
+.screen-reader-text, .blind {visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+html {font-family:'Gothic A1','Nanum Gothic','맑은고딕','돋움',sans-serif;font-size:16px;line-height:1.6}
+hr {margin:40px 0;border:none;border-top:1px solid #ddd;}
+#wrap {overflow-y:auto}
+#post-731 p img {margin:5px 0;border:1px solid #ddd}
+.logo {position:absolute;top:50%;left:40px;margin-top:-28px}
+.logo a {display:inline-block;border:2px solid #fff}
+.logo a img {height:54px}
+.header {position:relative;padding-left:130px;box-shadow:0 5px 15px #aaaaaa;background:#270858}
+.header__tags {max-width:400px;padding:30px 0}
+.header__tags a {display:inline-block;position:relative;margin:0 5px;padding:0 4px;font-size:1.6rem;color:#ddd}
+.header__tags a:hover {color:#fff}
+.header__search {position:absolute;top:50%;right:40px;width:400px}
+.search__field {display:block;width:100%;height:70px;padding:10px 15px;padding-right:80px;border:none;outline:none;background:#eee;font-size:20px;box-sizing:border-box}
+.search__field:focus {background:#fff}
+.search__submit {display:inline-block;position:absolute;right:11px;top:11px;width:54px;height:48px;line-height:48px;background:#270858;color:#fff;border:none;cursor:pointer;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}
+.container {padding:40px 0;background:#f5f5f5;}
+.content {max-width:1000px;margin:0 auto;padding:50px;background:#fff}
+.comm-list li {border-bottom:1px dashed #ccc}
+.comm-list li a {position:relative;display:block;padding:40px;font-size:1.1rem;font-weight:500}
+.comm-list li a:hover {background:#f0f0f0}
+.comm-list li.i a {padding-left:190px}
+.comm-list li.sticky {border-top:none}
+.comm-list__title {font-size:1.8rem;font-weight:600;color:#333}
+.comm-list__slug {margin-right:8px;color:#aaa;font-size:1.8rem;text-transform:uppercase;font-weight:600}
+.comm-list__wrap {display:block;margin-top:8px}
+.comm-list__date {display:inline-block;height:24px;margin-right:10px;padding:0 8px;border-radius:4px;background:#270858;color:#eee;line-height:27px}
+.comm-list__img {display:block;position:absolute;left:20px;top:50%;margin-top:-39px;text-align:center}
+.comm-list__img img {width:150px;height:76px}
+/*DETAIL*/
+.comm-title {padding-top:22px;padding-bottom:16px;font-size:3.2rem;color:#333;font-weight:600;text-align:center}
+.comm-tag {margin-bottom:100px;text-align:center}
+.comm-tag a {display:inline-block;padding:2px 5px;background:#270858;border-radius:5px;font-size:1rem;color:#eee}
+.comm-tag a:hover {color:#fff}
+.comm-content {overflow:hidden;margin-top:10px;font-size:1.2rem;color:#555;word-break:break-all}
+.comm-content p {margin:18px 0}
+.comm-content a {color:#0080cc}
+.comm-content a:hover {text-decoration:underline}
+.comm-content h3 {margin-top:80px;margin-bottom:30px;padding-bottom:8px;border-bottom:1px solid #e6e6e6;font-size:2.4rem;font-weight:600;color:#444}
+.comm-content h4 {margin-top:44px;margin-bottom:20px;font-size:1.8rem;font-weight:600;color:#444}
+.comm-content h5 {margin-top:34px;margin-bottom:18px;font-size:1.5rem;font-weight:600;color:#444}
+.comm-content h6 {margin-top:30px;margin-bottom:18px;font-size:1.3rem;font-weight:600;color:#444}
+pre.prettyprint {overflow-x:scroll;margin:14px 0;padding:20px;font-family:'Source Code Pro','돋움','dotum';font-size:.9rem;tab-size:4}
+code {font-family:'Source Code Pro','돋움','dotum'}
+pre.prettyprint.red {border:20px solid #dcb9b9}
+pre.prettyprint.blue {border:20px solid #b9c5dc}
+blockquote {margin:14px 0;border-left-width:10px;background-color:rgba(128,128,128,0.05);padding:15px 20px;border-left:5px solid rgba(128,128,128,0.075);font-size:1rem}
+blockquote ul {padding-left:20px}
+blockquote li {list-style-type:disc}
+.nav-links {margin-top:50px;font-size:1.2rem;color:#999;text-align:center}
+.nav-links a,.nav-links span {display:inline-block;width:40px;height:40px;color:#999;line-height:43px}
+.nav-links .current {background:#ccc;font-weight:600;color:#270858}
+.footer {background:#ddd;color:#aaa;text-align:center;font-size:12px}
+.footer__copy {padding:15px 0}
+/*PORTFOLIO*/
+.container--page {max-width:100%;margin-top:0;padding-top:100px;background:#fff}
+.container--page .comm-title {margin-bottom:60px;text-transform:uppercase;color:#270858}
+.comm-page {max-width:1100px;margin:0 auto}
+.comm-porttitle {margin-left:-20px;margin-bottom:30px;border-bottom:1px solid #e6e6e6;font-size:2.6rem;}
+.comm-portlist li {position:relative;margin-top:6px;padding-left:10px;font-size:1.1rem}
+.comm-porstlst li:first-child {margin-top:0}
+.comm-portlist li:before {content:'';position:absolute;top:10px;left:0;width:2px;height:2px;border-radius:50%;background:#555}
+.comm-portsubtitle {display:inline-block;margin-bottom:14px;padding:0 8px;font-size:1.6rem;background-color:#270858;font-weight:600;color:#fff}
+.comm-portimg {margin-bottom:20px}
+.comm-portimg a {display:block;-webkit-transition:transform .25s cubic-bezier(.215,.61,.355,1);transform .25s cubic-bezier(.215,.61,.355,1)}
+.comm-portimg a:hover {-webkit-transform:scale(.96);transform:scale(.96)}
+.items {margin-top:80px;margin-left:-40px;font-size:0}
+.item {display:inline-block;width:50%;margin-bottom:80px;padding-left:40px;box-sizing:border-box}
+@media screen and (max-width:1280px) {
+.container--page {padding:20px;padding-top:60px}	
+.container--page .comm-title {margin-bottom:30px}
+.comm-porttitle {margin-left:0;margin-bottom:20px;font-size:1.6rem}
+.comm-portlist li {font-size:1rem}
+.comm-portsubtitle {margin-bottom:4px;padding:0 5px;font-size:1.2rem;line-height:1.4}
+.items {margin-top:40px;margin-left:-20px}
+.item {padding-left:20px}
+}
+@media screen and (max-width:1024px) {
+.header {padding:24px 0;border-bottom:0;text-align:center}
+.logo {position:static;margin-top:0;font-size:0}
+.logo a, .logo a img {height:36px}
+.header__tags {max-width:100%;padding:20px }
+.header__tags a {margin:0 3px;padding:0 2px;font-size:.9rem}
+.header__search {position:relative;top:auto;right:auto;width:90%;margin:0 auto}
+.search__field {height:46px;font-size:1rem;}
+.search__submit {top:8px;right:8px;width:44px;height:30px;font-size:.6rem;line-height:30px}
+.content {margin:0 12px;padding:18px;padding-bottom:40px}
+.comm-list li {margin:0}
+.comm-list li a {padding:16px 10px;font-size:.8rem}
+.comm-list li.i a {padding-left:0px}
+.comm-list__slug {margin-bottom:4px;font-size:1rem}
+.comm-list__title {font-size:1rem}
+.comm-list__wrap, .comm-list__tags, .comm-list__desc, .comm-list__date, .comm-list__img {display:none}
+.comm-title {padding-top:16px;padding-bottom:10px;font-size:1.8rem;line-height:1.4}
+.comm-tag {margin-bottom:50px}
+.comm-content {font-size:1rem}
+.comm-content p {margin:14px 0}
+.comm-content h3 {margin-top:40px;margin-bottom:16px;font-size:1.5rem;word-break:break-all}
+.comm-content h4 {margin-top:30px;margin-bottom:12px;font-size:1.2rem;word-break:break-all}
+.comm-content h5 {margin-top:20px;margin-bottom:10px;font-size:1.1rem;word-break:break-all}
+.comm-tag a {font-size:.8rem}
+pre.prettyprint {overflow-x:auto;margin:12px 0;padding:10px;font-size:.8rem}
+.nav-links {margin-top:30px;font-size:.8rem}
+.nav-links a, .nav-links span {width:26px;height:26px;line-height:29px}
+.footer {margin-top:60px;padding-left:12px;padding-right:12px}
+.prettyprint.red, .prettyprint.blue {border-width:10px;}
+}
+@media screen and (max-width:768px) {
+.comm-portlist li {margin-top:5px}
+.items {margin-left:0}
+.item {display:block;width:auto;margin-bottom:60px;padding-left:0}
+}
