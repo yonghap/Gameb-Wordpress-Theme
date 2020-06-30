@@ -47,7 +47,7 @@ $(document).ready(function() {
 				<a href="/tag/html/">#html</a>
 				<a href="/tag/css/">#css</a>
 				<a href="/tag/vue/">#vue</a>
-				<a href="/tag/vue기초/">#vue기초</a>
+				<a href="/tag/vue기초/">#vue기초 </a>
 				<a href="/tag/vue예제/">#vue예제</a>
 				<a href="/tag/todo프로젝트/">#todo프로젝트</a>
 				<a href="/tag/library/">#library</a>
