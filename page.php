@@ -1,8 +1,4 @@
-<?php
-
-// 헤더파일부르기
-get_header();
-?>
+<?php get_header(); ?>
 <div id="container" class="container container--page">
 	<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php
@@ -15,7 +11,4 @@ get_header();
 		<? endwhile; ?>		
 	</div>
 </div>
-<?php
-get_footer();
-
-?>
+<?php get_footer(); ?>
