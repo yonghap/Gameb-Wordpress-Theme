@@ -76,6 +76,8 @@ blockquote li {list-style-type:disc}
 .comm-portlist li {position:relative;margin-top:6px;padding-left:10px;font-size:1.1rem}
 .comm-porstlst li:first-child {margin-top:0}
 .comm-portlist li:before {content:'';position:absolute;top:10px;left:0;width:2px;height:2px;border-radius:50%;background:#555}
+.comm-portlist--info {margin-bottom:60px}
+.comm-portlist--info a {color:#0080cc}
 .comm-portsubtitle {display:inline-block;margin-bottom:14px;padding:0 8px;font-size:1.6rem;background-color:#270858;font-weight:600;color:#fff}
 .comm-portimg {margin-bottom:20px}
 .comm-portimg a {display:block;-webkit-transition:transform .25s cubic-bezier(.215,.61,.355,1);transform .25s cubic-bezier(.215,.61,.355,1)}
