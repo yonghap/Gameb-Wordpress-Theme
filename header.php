@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon" href="/wp-content/themes/gameb/logo.png" />
 <script src="/wp-content/themes/gameb/common/prettify.js"></script>
 <script src="/wp-content/themes/gameb/common/jquery-latest.min.js"></script>
-<link rel="stylesheet" href="/wp-content/themes/gameb/style.css?c=1">
+<link rel="stylesheet" href="/wp-content/themes/gameb/style.css?c=2">
 <meta property="og:title" content="gameb">
 <meta property="og:image" content="http://gameb.co.kr/wp-content/uploads/2020/02/gameb.jpg">
 <meta property="og:description" content="Web Front-End">
