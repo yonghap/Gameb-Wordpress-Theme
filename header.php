@@ -51,6 +51,7 @@ $(document).ready(function() {
 			<div class="header__tags">
 				<a href="/tag/html/">#html</a>
 				<a href="/tag/css/">#css</a>
+				<a href="/tag/javascript/">#javascript</a>
 				<a href="/tag/vue/">#vue</a>
 				<a href="/tag/vue기초/">#vue기초 </a>
 				<a href="/tag/vue예제/">#vue예제</a>
