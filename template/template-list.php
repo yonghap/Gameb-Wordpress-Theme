@@ -8,14 +8,14 @@
 			    $post_tags = get_the_tags($id);
 			    if (!empty($post_tags)) {
 			        foreach ($post_tags as $tag) {
-			            $output .= '#'.$tag->name.' ';
+			            $output .= '<span>#'.$tag->name.'</span>';
 			        }			        
 			    }
 			    if ($id!=106) {
 				    if (get_post_thumbnail_id(get_the_ID())) {
-						echo "<li class='i'><a href='".get_permalink()."'><span class='comm-list__img'><img src='".wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()))."'></span><span class='comm-list__title'>".get_the_title()."</span><span class='comm-list__wrap'><span class='comm-list__date'>".$date."</span><span class='comm-list__tags'>".$output."</span></span></a>"."</li>";		 
+						echo "<li class='i'><a href='".get_permalink()."'><span class='comm-list__img'><img src='".wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()))."'></span><span class='comm-list__title'>".get_the_title()."</span><span class='comm-list__wrap'><span class='comm-list__tags'>".$output."</span></span><span class='comm-list__date'>".$date."</span></a></li>";		 
 					} else {
-						echo "<li><a href='".get_permalink()."'><span class='comm-list__title'>".get_the_title()."</span><span class='comm-list__wrap'><span class='comm-list__date'>".$date."</span><span class='comm-list__tags'>".$output."</span></span></a>"."</li>";						
+						echo "<li><a href='".get_permalink()."'><span class='comm-list__title'>".get_the_title()."</span><span class='comm-list__wrap'><span class='comm-list__tags'>".$output."</span></span><span class='comm-list__date'>".$date."</span></a></li>";						
 					}
 				}
 			endwhile;
