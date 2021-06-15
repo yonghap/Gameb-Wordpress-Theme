@@ -87,6 +87,8 @@ blockquote li {list-style-type:disc}
 .comm-portimg a:hover {-webkit-transform:scale(.96);transform:scale(.96)}
 .items {margin-top:80px;margin-left:-40px;font-size:0}
 .item {display:inline-block;width:50%;margin-bottom:80px;padding-left:40px;box-sizing:border-box}
+/*comment*/
+.header-clients, .button-share, .stream-item-vote, .select-group, .stream-item-edit {display:none !important}
 @media screen and (max-width:1280px) {
 .container--page {padding:20px;padding-top:60px}	
 .container--page .comm-title {margin-bottom:30px}

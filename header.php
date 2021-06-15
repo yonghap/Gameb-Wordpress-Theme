@@ -15,6 +15,7 @@
 <script src="/wp-content/themes/gameb/common/prettify.js"></script>
 <script src="/wp-content/themes/gameb/common/jquery-latest.min.js"></script>
 <link rel="stylesheet" href="/wp-content/themes/gameb/style.css?c=2">
+<script id="cosmosfarm-comments-script" type="text/javascript" src="https://plugin.cosmosfarm.com/comments.js"></script>
 <?php if (is_single() || is_page()) { ?>
 	<meta property="og:title" content="<?php the_title() ?>">
 	<meta property="og:description" content="Web FrontEnd Blog">
