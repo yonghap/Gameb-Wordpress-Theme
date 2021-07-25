@@ -15,7 +15,6 @@
 <script src="/wp-content/themes/gameb/common/prettify.js"></script>
 <script src="/wp-content/themes/gameb/common/jquery-latest.min.js"></script>
 <link rel="stylesheet" href="/wp-content/themes/gameb/style.css?c=2">
-<script id="cosmosfarm-comments-script" type="text/javascript" src="https://plugin.cosmosfarm.com/comments.js"></script>
 <?php if (is_single() || is_page()) { ?>
 	<meta property="og:title" content="<?php the_title() ?>">
 	<meta property="og:description" content="Web FrontEnd Blog">
@@ -24,6 +23,8 @@
 	<meta property="og:description" content="Web FrontEnd Blog">
 <?php } ?>	
 	<meta property="og:image" content="http://gameb.co.kr/wp-content/uploads/2020/02/gameb.jpg">
+	<?php wp_head(); ?>
+
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
