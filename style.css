@@ -89,7 +89,7 @@ blockquote li {list-style-type:disc}
 .item {display:inline-block;width:50%;margin-bottom:80px;padding-left:40px;box-sizing:border-box}
 /*comment*/
 .header-clients, .button-share, .stream-item-vote, .select-group, .stream-item-edit {display:none !important}
-#reply-title {margin-bottom:15px;text-align:center}
+#reply-title {margin-bottom:15px}
 .comment-form-comment label {display:none}
 #comments {margin-top: 100px}
 #comment {display:block;width:100%;padding:15px;border: 1px solid #ccc;font-family:inherit;box-sizing:border-box;outline:none;resize:none}
@@ -152,6 +152,7 @@ pre.prettyprint {overflow-x:auto;margin:12px 0;padding:10px;font-size:.8rem}
 .nav-links a, .nav-links span {width:26px;height:26px;line-height:29px}
 .footer {margin-top:60px;padding-left:12px;padding-right:12px}
 .prettyprint.red, .prettyprint.blue {border-width:10px;}
+#comments {margin-top:60px}
 }
 @media screen and (max-width:768px) {
 .comm-portlist li {margin-top:5px}
